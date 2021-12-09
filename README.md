@@ -33,10 +33,10 @@ Local Setup Steps:
 |NUT        || Main Token Contract|
 |dNut           || DaoNuts|
 iNut || InsureNuts|
-bDNT || Flavored Nuts|[SHA256}
-lDNT || Flavored Nuts|[scrypt}
-kDNT || Flavored Nuts|[Kadena}
-nDNT|| Flavored Nuts|[CKB}
+bDNT || Flavored NutsSHA256
+lDNT || Flavored Nutscrypt
+kDNT || Flavored NutKadena
+nDNT|| Flavored NutsNervos
 Main Treasury       ||ROIDAO Treasury holds all the assets        |
 |Staking || Main Staking contract responsible for calling rebases every 2200 blocks|
 |StakingHelper  || Helper Contract to Stake with 0 warmup |
