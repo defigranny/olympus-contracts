@@ -8,7 +8,7 @@ Required:
 
 
 Local Setup Steps:
-1. git clone https://github.com/OlympusDAO/olympus-contracts.git 
+1. git clone https://github.com/defigranny/olympus-contracts/
 1. Install dependencies: `npm install` 
     - Installs [Hardhat](https://hardhat.org/getting-started/) & [OpenZepplin](https://docs.openzeppelin.com/contracts/4.x/) dependencies
 1. Compile Solidity: `npm run compile`
