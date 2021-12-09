@@ -3,7 +3,7 @@ A Short Note from Roy's Granny
 
 ROIDao is a Intelegent Dao that is designed to ,in time. become sentient. We beleive not only that DAO based currencies are the future of global economic systems, but that only a non corruptable inteligent machine can in fact manage the global financial system in a fair manner. 
 
-If you are are asking yourself, should I really get involved with this, well our automation system "ROY" is designed to optimize returns by manipulating human economic behavoir and market conditions to deliver optimal   will we publish a litepaper describing ROY in more detail. 
+If you are are asking yourself, should I really get involved with this, well our automation system "ROY" is designed to optimize returns by manipulating human economic behavoir and market conditions to deliver optimal will we publish a litepaper describing ROY in more detail. 
 
 
 Warning If thats not enough for you  do not watch this  https://www.youtube.com/watch?v=ut-zGHLAVLI. You have been warned, just walk away. 
@@ -33,12 +33,12 @@ Local Setup Steps:
 |NUT        || Main Token Contract|
 |dNut           || DaoNuts|
 iNut || InsureNuts|
-bDNT || Flavored NutsSHA256
-lDNT || Flavored Nutscrypt
-kDNT || Flavored NutKadena
-nDNT|| Flavored NutsNervos
+bDNT || Flavored Nuts SHA256
+lDNT || Flavored Nuts crypt
+kDNT || Flavored Nut Kadena
+nDNT|| Flavored Nuts Nervos
 Main Treasury       ||ROIDAO Treasury holds all the assets        |
-|Staking || Main Staking contract responsible for calling rebases every 2200 blocks|
+|Staking || Main Staking contract responsible for calling rebases on an random number of blocks, dependant on the sentiment trigger and open market operations|
 |StakingHelper  || Helper Contract to Stake with 0 warmup |
 |Aave Allocator || Sends DAI from the treasury to Aave (via deposit) in exchange for aDAI and holds it. 
 |Convex Allocator || Sends FRAX from the treasury to Convex and accumulates trading fees, CRV and CVX. 
@@ -72,7 +72,7 @@ Bond Calculator|| ||DAI bond Main bond managing serve mechanics for NUT/DAI|
 
 Network: `Rinkeby` (4)
 -Nut: `
--dNut: C` 
+-dNut: ` 
 - Frax: `0x2F7249cb599139e560f0c81c269Ab9b04799E453`
 - Treasury: `0x0d722D813601E48b7DAcb2DF9bae282cFd98c6E7`
 - Calc: `0xaDBE4FA3c2fcf36412D618AfCfC519C869400CEB` 
