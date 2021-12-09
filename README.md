@@ -45,28 +45,26 @@ Main Treasury       ||ROIDAO Treasury holds all the assets        |
 |Onsen Allocator || Sends NUT-DAI SLP from the treasury to the Sushi Onsen pool, accumulating SUSHI and xSUSHI.
 |DAO            ||Storage Wallet for DAO under MS |
 |Staking Warm Up| Instructs the Staking contract when a user can claim dNUT |
-|AIBalancer| Allocation balancer|
-|Sentintment Trigger| Instructs open market dnut orders allocator from tsy based on sentiment|
-|SpotLend LP| Lp for spot lend product |see spotlend repo)
-|Nervos translate|
-|Mint Cavemen|
-|Insurance|
+|AIBalancer| | balancer|
+|Sentintment || Instructs open market dnut orders allocator from tsy based on sentiment|
+|SpotLend LP| | Spotlend LP
+|Nervos translate|| Trad
+|Mint Caveman|| 
 **Bonds**
 - **_TODO_**: What are the requirements for creating a Bond Contract?
 All LP bonds use the Bonding Calculator contract which is used to compute RFV. 
 
 |Contract       | Addresss                                                                                                            | Notes   |
 |:-------------:|:-------------------------------------------------------------------------------------------------------------------:|-------|
-|AAA rated ROI ETH.Tranche Bonds || | Tranched Bonds (AAA) 
-|BBB rated  ETH.Tranche Bonds || | Tranched Bonds (BBB) 
+|AAA rated Basket Tranche Bond || | Tranched Bonds (AAA) 
+|BBB rated Basket Tranche Bonds || | Tranched Bonds (BBB) 
 |Bond Insurance|| | Tranched Bond Insurance mechnism 
 Bond Calculator|| ||DAI bond Main bond managing serve mechanics for NUT/DAI|
 |DAI/NUT SLP Bond|| Manages mechhanism for thhe protocol to buy baack its own liquidity from the pair.
 |FRAX Bond|
 |FRAX/NUT SLP Bond||
 |ETH/NUT SLP Bond||
-
-
+|FUTURES||
 
 ### Testnet Addresses
 
