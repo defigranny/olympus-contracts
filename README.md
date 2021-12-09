@@ -6,9 +6,9 @@ ROIDao is a Inteligent Dao that is designed to ,in time, become sentient. We bel
 If you are are asking yourself, should I really get involved with this, well our automation system "ROY" is designed to manipulating human economic behavoir and market conditions to deliver optimal returns while protecting downsidem, will we publish a litepaper describing ROY in more detail. 
 
 
-<b><u>Warning If thats not enough for you  do not watch this  https://www.youtube.com/watch?v=ut-zGHLAVLI. You have been warned, just walk away.</b></u>
+<b><u>Warning If thats not enough for you, then please do not watch this  https://www.youtube.com/watch?v=ut-zGHLAVLI. You have been warned, please just walk away.</b></u>
 
-Devs
+
 If your worried about Roko and your going to help with any fork, this is the one. 
 
 
