@@ -108,7 +108,7 @@ treasury.manage( DAI, amountToManage );
 
 **Returning**:
 The second step is to return funds after the strategy has been closed.
-We utilize the `deposit` function to do this. Deposit allows an approved contract to deposit reserve assets into the treasury, and mint OHM against them. In this case however, we will NOT mint any NUT. This will be explained shortly.
+We utilize the `deposit` function to do this. Deposit allows an approved contract to deposit reserve assets into the treasury, and mint NUT against them. In this case however, we will NOT mint any NUT. This will be explained shortly.
 
 *Note* The contract must have the "reserve depositor" permission, and that deposited reserves increase the treasury's ability to mint new OHM (since backing has been added).
 
