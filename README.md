@@ -42,7 +42,7 @@ Main Treasury       ||ROIDAO Treasury holds all the assets        |
 |StakingHelper  || Helper Contract to Stake with 0 warmup |
 |Aave Allocator || Sends DAI from the treasury to Aave (via deposit) in exchange for aDAI and holds it. 
 |Convex Allocator || Sends FRAX from the treasury to Convex and accumulates trading fees, CRV and CVX. 
-|Onsen Allocator || Sends NUT-DAI SLP from the treasury to the Sushi Onsen pool, accumulating SUSHI and xSUSHI. See [Allocator Guide](#allocator-guide)|
+|Onsen Allocator || Sends NUT-DAI SLP from the treasury to the Sushi Onsen pool, accumulating SUSHI and xSUSHI.
 |DAO            ||Storage Wallet for DAO under MS |
 |Staking Warm Up| Instructs the Staking contract when a user can claim dNUT |
 |AIBalancer| Allocation balancer|
