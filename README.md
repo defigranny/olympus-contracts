@@ -1,5 +1,5 @@
 # O  ROIDAO Smart Contracts
-A Short Note from Roys Granny
+A Short Note from Roy's Granny
 
 ROIDao is a Intelegent Dao that is designed to ,in time. become sentient. We beleive not only that DAO based currencies are the future of global economic systems, but that only a non corruptable inteligent machine can in fact manage the global financial system in a fair manner. 
 
