@@ -33,10 +33,10 @@ Local Setup Steps:
 |NUT        || Main Token Contract|
 |dNut           || DaoNuts|
 iNut || InsureNuts|
-bDNT || Flavored Nuts SHA256
-lDNT || Flavored Nuts crypt
-kDNT || Flavored Nut Kadena
-nDNT|| Flavored Nuts Nervos
+bDNT || SHA256 Flavored Nuts 
+lDNT ||  Scrypt Flavored Nuts
+kDNT ||  Kadena Flavored Nuts
+nDNT|| Nervos Flavored Nuts 
 Main Treasury       ||ROIDAO Treasury holds all the assets        |
 |Staking || Main Staking contract responsible for calling rebases on an random number of blocks, dependant on the sentiment trigger and open market operations|
 |StakingHelper  || Helper Contract to Stake with 0 warmup |
@@ -44,12 +44,12 @@ Main Treasury       ||ROIDAO Treasury holds all the assets        |
 |Convex Allocator || Sends FRAX from the treasury to Convex and accumulates trading fees, CRV and CVX. 
 |Onsen Allocator || Sends NUT-DAI SLP from the treasury to the Sushi Onsen pool, accumulating SUSHI and xSUSHI.
 |DAO            ||Storage Wallet for DAO under MS |
-|Staking Warm Up| Instructs the Staking contract when a user can claim dNUT |
+|Staking Warm Up|| the Staking contract when a user can claim dNUT |
 |AIBalancer| | balancer|
 |Sentintment || Instructs open market dnut orders allocator from tsy based on sentiment|
-|SpotLend LP| | Spotlend LP
-|Nervos translate|| Trad
-|Mint Caveman|| 
+|SpotLend LP| | SpotLend  MutliCurrencyLP
+|Nervos translate|| Godwoken Bridging
+|Mint Caveman|| *TBA
 **Bonds**
 - **_TODO_**: What are the requirements for creating a Bond Contract?
 All LP bonds use the Bonding Calculator contract which is used to compute RFV. 
