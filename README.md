@@ -43,11 +43,7 @@ All LP bonds use the Bonding Calculator contract which is used to compute RFV.
 |FRAX Bond|[0x8510c8c2B6891E04864fa196693D44E6B6ec2514](https://etherscan.io/address/0x8510c8c2B6891E04864fa196693D44E6B6ec2514)|Similar to DAI bond but using FRAX|
 |FRAX/NUT SLP Bond|[0xc20CffF07076858a7e642E396180EC390E5A02f7](https://etherscan.io/address/0xc20CffF07076858a7e642E396180EC390E5A02f7)| Similar to DAI/OHM but using FRAX |
 
-**OLD Contracts**:
 
-- sOHM: 0x31932e6e45012476ba3a3a4953cba62aee77fbbe 
-- Vault: 0x886ce997aa9ee4f8c2282e182ab72a705762399d 
-- Staking (v1): 0x0822f3c03dcc24d200aff33493dc08d0e1f274a2
 
 
 ### Testnet Addresses
@@ -93,7 +89,7 @@ treasury.manage( DAI, amountToManage );
 
 **Returning**:
 The second step is to return funds after the strategy has been closed.
-We utilize the `deposit` function to do this. Deposit allows an approved contract to deposit reserve assets into the treasury, and mint OHM against them. In this case however, we will NOT mint any OHM. This will be explained shortly.
+We utilize the `deposit` function to do this. Deposit allows an approved contract to deposit reserve assets into the treasury, and mint OHM against them. In this case however, we will NOT mint any NUT. This will be explained shortly.
 
 *Note* The contract must have the "reserve depositor" permission, and that deposited reserves increase the treasury's ability to mint new OHM (since backing has been added).
 
@@ -103,7 +99,7 @@ Pass in the address sending the funds (most likely the allocator contract), the 
 function deposit( address _from, uint _amount, address _token, uint _profit ) external returns ( uint send_ );
 ```
 
-To ensure no OHM is minted, we first get the value of the asset, and pass that in as profit.
+To ensure no NUT is minted, we first get the value of the asset, and pass that in as profit.
 Pass in the token address and amount to get the treasury value.
 ```
 function valueOf( address _token, uint _amount ) public view returns ( uint value_ );
