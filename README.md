@@ -1,4 +1,4 @@
-# Ω  ROIDAO Smart Contracts
+# O  ROIDAO Smart Contracts
 
 
 ##  🔧 Setting up Local Development
